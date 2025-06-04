@@ -4,9 +4,9 @@ build-backend = "scikit_build_core.build"
 
 
 [project]
-name = "daft_lib"
+name = "pcl"
 version = "0.0.1"
-description="daft-lib, example of bindings with litgen"
+description="pcl, example of bindings with litgen"
 readme = "README.md"
 authors = [ { name = "My Name", email = "me@email.com" } ]
 requires-python = ">=3.7"
@@ -32,7 +32,7 @@ test = ["pytest"]
 
 [tool.scikit-build]
 wheel.expand-macos-universal-tags = true
-wheel.packages = ["_stubs/daft_lib"]
+wheel.packages = ["_stubs/pcl"]
 
 
 [tool.cibuildwheel]
